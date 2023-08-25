@@ -16,7 +16,7 @@ struct ContentView: View {
             Text("みんなの好きなアニメはなんですか？")
             Text("NARUTO")
             Text("とおれ！！プルリク！")
-            Text("ch")
+            Text("che")
         }
         .padding()
         
