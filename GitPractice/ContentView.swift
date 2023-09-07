@@ -14,7 +14,6 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("みんなの好きなアニメはなんですか？")
-            Text("とおれ！！プルリク！")
         }
         .padding()
         
