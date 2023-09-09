@@ -14,16 +14,19 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("みんなの好きなアニメはなんですか？")
+            Text("NARUTO")
             Text("とおれ！！プルリク！")
-            Text("ch")
+            Text("Revert")
+            Text("chery-")
         }
         .padding()
         
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+/// Previewが邪魔だからコメントアウトしてみた
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
