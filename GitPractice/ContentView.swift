@@ -16,6 +16,8 @@ struct ContentView: View {
             Text("みんなの好きなアニメはなんですか？")
             Text("とおれ！！プルリク！")
             Text("ch")
+            Text("龍兄の復習2023/09/09")
+            Text("statusを確認していなかった")
         }
         .padding()
         
