@@ -20,6 +20,7 @@ struct ContentView: View {
             Text("statusを確認していなかった")
             Text("oldPersonだよ")
             Text("23/09/16スタッシュ練習")
+            Text("差分！！")
         }
         .padding()
         
