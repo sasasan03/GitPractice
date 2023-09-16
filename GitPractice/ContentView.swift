@@ -21,6 +21,7 @@ struct ContentView: View {
             Text("oldPersonだよ")
             Text("23/09/16スタッシュ練習")
             Text("差分！！")
+            Text("９月１６日")
         }
         .padding()
         
