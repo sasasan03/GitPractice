@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692E360E2C1885C400B14E0D /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 692E360D2C1885C400B14E0D /* XMLCoder */; };
 		69805E1B2A94E90A00329AFD /* GitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69805E1A2A94E90A00329AFD /* GitPracticeApp.swift */; };
 		69805E1D2A94E90A00329AFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69805E1C2A94E90A00329AFD /* ContentView.swift */; };
 		69805E1F2A94E90B00329AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69805E1E2A94E90B00329AFD /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692E360E2C1885C400B14E0D /* XMLCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = GitPractice;
+			packageProductDependencies = (
+				692E360D2C1885C400B14E0D /* XMLCoder */,
+			);
 			productName = GitPractice;
 			productReference = 69805E172A94E90A00329AFD /* GitPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 69805E0E2A94E90900329AFD;
+			packageReferences = (
+				692E360C2C1885C400B14E0D /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
 			productRefGroup = 69805E182A94E90A00329AFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		692E360C2C1885C400B14E0D /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		692E360D2C1885C400B14E0D /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 692E360C2C1885C400B14E0D /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 69805E0F2A94E90900329AFD /* Project object */;
 }
