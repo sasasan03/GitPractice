@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+let 何かしらの処理 = "エラー処理がほしい"
+
+
+
