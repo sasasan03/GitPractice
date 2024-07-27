@@ -103,7 +103,7 @@
 				69805E1A2A94E90A00329AFD /* GitPracticeApp.swift */,
 				69805E1C2A94E90A00329AFD /* ContentView.swift */,
 				69ABC9B92C54BB4A000587E2 /* AAAAAA.swift */,
-				69ABC9BB2C54C0E2000587E2 /* BBBBBB.swift */,
+				69ABC9BD2C54C1F5000587E2 /* BBBBBB.swift */,
 				69805E1E2A94E90B00329AFD /* Assets.xcassets */,
 				69805E202A94E90B00329AFD /* Preview Content */,
 			);
@@ -274,7 +274,7 @@
 				69805E1D2A94E90A00329AFD /* ContentView.swift in Sources */,
 				69ABC9BA2C54BB4A000587E2 /* AAAAAA.swift in Sources */,
 				69805E1B2A94E90A00329AFD /* GitPracticeApp.swift in Sources */,
-				69ABC9BC2C54C0E2000587E2 /* BBBBBB.swift in Sources */,
+				69ABC9BE2C54C1F5000587E2 /* BBBBBB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
