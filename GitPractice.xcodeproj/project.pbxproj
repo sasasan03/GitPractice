@@ -15,6 +15,7 @@
 		69805E2C2A94E90B00329AFD /* GitPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69805E2B2A94E90B00329AFD /* GitPracticeTests.swift */; };
 		69805E362A94E90B00329AFD /* GitPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69805E352A94E90B00329AFD /* GitPracticeUITests.swift */; };
 		69805E382A94E90B00329AFD /* GitPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69805E372A94E90B00329AFD /* GitPracticeUITestsLaunchTests.swift */; };
+		69ABC9BA2C54BB4A000587E2 /* AAAAAA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABC9B92C54BB4A000587E2 /* AAAAAA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		69805E312A94E90B00329AFD /* GitPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69805E352A94E90B00329AFD /* GitPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeUITests.swift; sourceTree = "<group>"; };
 		69805E372A94E90B00329AFD /* GitPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69ABC9B92C54BB4A000587E2 /* AAAAAA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAAAAA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				69805E1A2A94E90A00329AFD /* GitPracticeApp.swift */,
 				69805E1C2A94E90A00329AFD /* ContentView.swift */,
+				69ABC9B92C54BB4A000587E2 /* AAAAAA.swift */,
 				69805E1E2A94E90B00329AFD /* Assets.xcassets */,
 				69805E202A94E90B00329AFD /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69805E1D2A94E90A00329AFD /* ContentView.swift in Sources */,
+				69ABC9BA2C54BB4A000587E2 /* AAAAAA.swift in Sources */,
 				69805E1B2A94E90A00329AFD /* GitPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
